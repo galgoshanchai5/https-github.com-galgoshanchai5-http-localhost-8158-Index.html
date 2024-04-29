@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Magazine</title>
+    <style>
+/* Global styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+header {
+  text-align: center;
+}
+
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(255, 165, 0, 0.2), rgba(255, 215, 0, 0.2)); /* Orange gradient background */
+        }
+        h1 {
+            color: #FF6347;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+            
+        
+
+
+/* Header styles */
+header {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+    
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Home section styles */
+#home {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+    
+        
+        
+
+.menu-item {
+    
+    width: 45%px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+
+/* About section styles */
+#about {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Contact section styles */
+#contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+        img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #FF4500; /* Darker orange for footer background */
+            color: #fff;
+            border-radius: 0 0 15px 15px;
+        }
+
+}
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>chai Coffee House</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+              
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Welcome to chai Coffee House</h1>
+            <p>Coffee Lovers' Paradise</p>
+            <a href="#about" class="btn"></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>chai coffee house is a family-owned coffee shop that has been serving the finest coffee since 2021. we are passionate about delivering an exceptional coffee exprience to our customers.  </p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src=" /storage/emulated/0/Download/menu coffee.jpg" alt="Coffee menu">
+              
+            </div>
+            <div class="menu-item">
+                <img src=" /storage/emulated/0/Download/1200px-Cappuccino_at_Sightglass_Coffee.jpg" alt="Coffee 1">
+                <h3>Cappuccino</h3>
+                <h3>₱50</h3>
+                <p>A classic Italian coffee made with equal parts espresso, steamed milk, and milk foam .</p>
+                
+            </div>
+            <div class="menu-item">
+                <img src=" /storage/emulated/0/Download/Latte-macchiato-Lilie-Bakery.jpg" alt="Coffee 2">
+                <h3>Latte</h3>
+                <h3>₱50</h3>
+                <p>A creamy and smooth drink made with espresso and steamed milk .</p>
+                
+            </div>
+            <div class="menu-item">
+                <img src=" /storage/emulated/0/Download/Orange americano.jpg" alt="Coffee 3">
+                <h3>orange Americano</h3>
+                <h3>₱40</h3>
+                <p>A glass full of ice and fresh orange juice topped with double espresso with the best refreshing summer beverage  .</p>
+                
+            </div>
+            <div class="menu-item">
+              <img src="/storage/emulated/0/Download/my website .SHANCHAI GALGO/black-white-coffee-500.500.500.s.jpg">
+              <h3>black white coffee</h3>
+              <h3>₱50</h3>
+              <p>A strong and bold coffee made by diluting espresso with hot water.   </p>
+            </div>
+            <div class="menu-item">
+              <img src=" /storage/emulated/0/Download/white-chocolate-mocha-www.thereciperebel.com-600-1-of-9.jpg" alt="coffee 5">
+              <h3>coffee cocoa </h3>
+              <h3>₱50</h3>
+              <p>coffee cocoa made with 100%  pure ground cacao to give you natural energy without the jitters or caffine crash. </p>
+            </div>
+            <div class="menu-item">
+              <img src=" /storage/emulated/0/Download/CaramelMacchiato-hero.1fb90577.jpg" alt="coffee 6">
+              <h3>Caramel macchiato</h3>
+              <h3>₱50</h3>
+              <p> A classic and time-honored dark roast with notes of molasses and caramelized sugar thats perfect for making classic espresso drink. </p>
+            </div>
+            <div class="menu-item">
+              <img src=" /storage/emulated/0/Download/coffee cream white.jpg" alt="coffee 7">
+              <h3> coffee cream white</h3>
+              <h3>₱50</h3>
+              <p> it is creamy smooth and taste.</p>
+            </div>
+        </div>
+    </section>
+<section id="Order Now">
+  <!--home section content here-->
+  <h2>Order Now</h2>
+  
+  
+  <form action="order.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea>
+    
+    <label for="coffee">Coffee:</label>
+    <select id="coffee" name="coffee" required>
+        <option value="cappuccino">Cappuccino</option>
+        <option value="latte">Latte</option>
+        <option value="orange americano">orange Americano</option>
+        <option value="coffee cocoa ">coffee cocoa</option>
+        <option value="coffee white cream">coffee white cream</option>
+        <option value="Caramel macchiato">Caramel macchiato</option>
+        <option value="black white coffee">black white coffee</option>
+    </select>
+    
+    <input type="submit" value="Place Order">
+</form>
+
+</section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p> Email:info@chaicoffeehouse.com</p>
+        <p>Phone:123-456-7890</p>
+        <p>Address:123 coffee street, philipines, country</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 chai Coffee House. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
